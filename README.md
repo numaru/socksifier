@@ -2,6 +2,8 @@
 
 A windows DLL which hook the `connect()` std call to redirect sockets to SOCKS4 proxy server.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bwesvx70s524t30w/branch/master?svg=true)](https://ci.appveyor.com/project/nefarius/socksifier/branch/master)
+
 ## Build
 
 This project use the NMAKE version of makefile. To build the DLL, simply open your `Developper Command Prompt for Visual Studio` and use:
